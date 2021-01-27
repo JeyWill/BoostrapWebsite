@@ -12,7 +12,7 @@ header img{
   border-radius: 50%;
 }
 
-hr{
+.hrB{
 	width: 30px;
 	height: 3px;
 	background: #022E40;
@@ -20,8 +20,16 @@ hr{
 	margin: 0 auto 40px auto;
 }
 
+.hrL{
+	width: 50px;
+	height: 2px;
+	background: #022E40;
+	border: 0;
+	margin: 0 auto 40px auto;
+}
+
 main{
-  min-height: 100vh;
+  min-height: 110vh;
   min-width: 100%;
   background-image: url("../img/main.jpg");
   background-size: cover;
@@ -39,6 +47,14 @@ main h1{
   font-style: normal;
 }
 
+main h2{
+  font-size: 40px;
+  color: #022E40;
+  font-family: merriweather, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 main p{
   text-align: justify;
   padding: 0 15% 0 15%;
@@ -49,6 +65,9 @@ main p{
   font-style: normal;
 }
 
+#STV{
+  margin-top: 50px;
+}
 
 footer{
   text-align: center;

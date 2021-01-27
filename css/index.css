@@ -64,7 +64,8 @@ hr{
 }
 
 #main p{
-  padding: 0 15% 0 15%;
+  text-align: justify;
+  padding: 0 20% 0 20%;
   font-size: 30px;
   color: #022E40;
   font-family: merriweather, serif;
@@ -72,16 +73,6 @@ hr{
   font-style: normal;
 }
 
-#portrait{
-  height: 150px;
-  border-radius: 25%;
-}
-
-#portrait:hover{
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-}
 
 footer{
   text-align: center;
