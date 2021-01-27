@@ -1,0 +1,103 @@
+header{
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+header a{
+  font-size: 20px;
+  color: #022E40;
+}
+
+header img{
+  height: 80px;
+  border-radius: 50%;
+}
+
+#start{
+  background-image: url("../img/homepage.webp");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 92.5vh;
+  min-width: 100%;
+  text-align: center;
+  padding: 120px 0;
+}
+
+#start h1{
+  font-size: 65px;
+  color: #022E40;
+  font-family: merriweather, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#start img{
+  height: 250px;
+  margin-top: -30px;
+}
+
+hr{
+	width: 30px;
+	height: 3px;
+	background: #022E40;
+	border: 0;
+	margin: 0 auto 40px auto;
+}
+
+#main{
+  min-height: 100vh;
+  min-width: 100%;
+  background-image: url("../img/main.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 180px 0;
+}
+
+#main h1{
+  font-size: 65px;
+  color: #022E40;
+  font-family: merriweather, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#main p{
+  padding: 0 15% 0 15%;
+  font-size: 30px;
+  color: #022E40;
+  font-family: merriweather, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#portrait{
+  height: 150px;
+  border-radius: 25%;
+}
+
+#portrait:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+footer{
+  text-align: center;
+  color: #022E40;
+  padding: 20px 0 5px 0;
+  font-size: 20px;
+  background-color: #323642;
+  color: white;
+}
+
+.icon{
+  height: 40px;
+}
+
+.icon:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
